@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51160575F1CABE24A51EF638 /* Pods_hiroky_sample_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF27CD344206164BCFE573B /* Pods_hiroky_sample_app.framework */; };
+		D504420B24386E0200430F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504420A24386E0200430F0A /* AppDelegate.swift */; };
+		D504420D24386E0200430F0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504420C24386E0200430F0A /* SceneDelegate.swift */; };
+		D504420F24386E0200430F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504420E24386E0200430F0A /* ViewController.swift */; };
+		D504421224386E0200430F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D504421024386E0200430F0A /* Main.storyboard */; };
+		D504421424386E0600430F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D504421324386E0600430F0A /* Assets.xcassets */; };
+		D504421724386E0600430F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D504421524386E0600430F0A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04DF41E5A2A69FCF679456F9 /* Pods-hiroky_sample_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiroky_sample_app.release.xcconfig"; path = "Target Support Files/Pods-hiroky_sample_app/Pods-hiroky_sample_app.release.xcconfig"; sourceTree = "<group>"; };
+		4FF27CD344206164BCFE573B /* Pods_hiroky_sample_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiroky_sample_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D504420724386E0200430F0A /* hiroky_sample_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hiroky_sample_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D504420A24386E0200430F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D504420C24386E0200430F0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D504420E24386E0200430F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D504421124386E0200430F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D504421324386E0600430F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D504421624386E0600430F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D504421824386E0600430F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD76368FA3ACC53C0C0A59A8 /* Pods-hiroky_sample_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiroky_sample_app.debug.xcconfig"; path = "Target Support Files/Pods-hiroky_sample_app/Pods-hiroky_sample_app.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D504420424386E0200430F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51160575F1CABE24A51EF638 /* Pods_hiroky_sample_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416B8674E4646D0F4F6FA0F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FF27CD344206164BCFE573B /* Pods_hiroky_sample_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50441FE24386E0200430F0A = {
+			isa = PBXGroup;
+			children = (
+				D504420924386E0200430F0A /* hiroky_sample_app */,
+				D504420824386E0200430F0A /* Products */,
+				DB9D9FBD3D232EBD5D7C3D2C /* Pods */,
+				416B8674E4646D0F4F6FA0F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D504420824386E0200430F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D504420724386E0200430F0A /* hiroky_sample_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D504420924386E0200430F0A /* hiroky_sample_app */ = {
+			isa = PBXGroup;
+			children = (
+				D504420A24386E0200430F0A /* AppDelegate.swift */,
+				D504420C24386E0200430F0A /* SceneDelegate.swift */,
+				D504420E24386E0200430F0A /* ViewController.swift */,
+				D504421024386E0200430F0A /* Main.storyboard */,
+				D504421324386E0600430F0A /* Assets.xcassets */,
+				D504421524386E0600430F0A /* LaunchScreen.storyboard */,
+				D504421824386E0600430F0A /* Info.plist */,
+			);
+			path = hiroky_sample_app;
+			sourceTree = "<group>";
+		};
+		DB9D9FBD3D232EBD5D7C3D2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD76368FA3ACC53C0C0A59A8 /* Pods-hiroky_sample_app.debug.xcconfig */,
+				04DF41E5A2A69FCF679456F9 /* Pods-hiroky_sample_app.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D504420624386E0200430F0A /* hiroky_sample_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D504421B24386E0600430F0A /* Build configuration list for PBXNativeTarget "hiroky_sample_app" */;
+			buildPhases = (
+				9BC9CE3960D4DB643E2615E1 /* [CP] Check Pods Manifest.lock */,
+				D504420324386E0200430F0A /* Sources */,
+				D504420424386E0200430F0A /* Frameworks */,
+				D504420524386E0200430F0A /* Resources */,
+				F93AC5E867BA1B4B8E44E276 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hiroky_sample_app;
+			productName = hiroky_sample_app;
+			productReference = D504420724386E0200430F0A /* hiroky_sample_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50441FF24386E0200430F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = hiroky.sample;
+				TargetAttributes = {
+					D504420624386E0200430F0A = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = D504420224386E0200430F0A /* Build configuration list for PBXProject "hiroky_sample_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D50441FE24386E0200430F0A;
+			productRefGroup = D504420824386E0200430F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D504420624386E0200430F0A /* hiroky_sample_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D504420524386E0200430F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D504421724386E0600430F0A /* LaunchScreen.storyboard in Resources */,
+				D504421424386E0600430F0A /* Assets.xcassets in Resources */,
+				D504421224386E0200430F0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BC9CE3960D4DB643E2615E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hiroky_sample_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93AC5E867BA1B4B8E44E276 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hiroky_sample_app/Pods-hiroky_sample_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hiroky_sample_app/Pods-hiroky_sample_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hiroky_sample_app/Pods-hiroky_sample_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D504420324386E0200430F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D504420F24386E0200430F0A /* ViewController.swift in Sources */,
+				D504420B24386E0200430F0A /* AppDelegate.swift in Sources */,
+				D504420D24386E0200430F0A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D504421024386E0200430F0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D504421124386E0200430F0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D504421524386E0600430F0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D504421624386E0600430F0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D504421924386E0600430F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D504421A24386E0600430F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D504421C24386E0600430F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD76368FA3ACC53C0C0A59A8 /* Pods-hiroky_sample_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBZ8M6PDXZ;
+				INFOPLIST_FILE = hiroky_sample_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroky.sample.hiroky-sample-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D504421D24386E0600430F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04DF41E5A2A69FCF679456F9 /* Pods-hiroky_sample_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBZ8M6PDXZ;
+				INFOPLIST_FILE = hiroky_sample_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroky.sample.hiroky-sample-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D504420224386E0200430F0A /* Build configuration list for PBXProject "hiroky_sample_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D504421924386E0600430F0A /* Debug */,
+				D504421A24386E0600430F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D504421B24386E0600430F0A /* Build configuration list for PBXNativeTarget "hiroky_sample_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D504421C24386E0600430F0A /* Debug */,
+				D504421D24386E0600430F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50441FF24386E0200430F0A /* Project object */;
+}
